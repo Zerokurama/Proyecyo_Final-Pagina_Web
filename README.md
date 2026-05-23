@@ -35,7 +35,7 @@ Los pasos para realizar el despliegue en azure app service son los siguientes:
 6. selecciona barra izquierda implementazión (deployment), despues Centro de implementación (deployment center)
 7. En origen (source) escoger GitHub y autorizar
 8. Seleccionar el repositorio (repository) y la rama (breach) de su app y le da en guardar (save).
-9. Barra lateral izquiera, configuracion (settings), configuracion (configuration), configuracion de la pila (stack settings) y por ultimo compando de inicio (start command).
+9. Barra lateral izquiera, configuracion (settings), configuracion (configuration), configuracion de la pila (stack settings) y por ultimo comando de inicio (start command).
 10. Colocar startup.sh (si se creo el archivo) o streamlit run main.py --server.port 8000 --server.address 0.0.0.0 (si no tiene el archivo creado).
 11. Introducción (Overview), click en dominio predeterminado (Default Domain) y listo, su aplicacion web esta lista.
 
