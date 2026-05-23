@@ -64,6 +64,7 @@ def main():
         st.subheader("Visualizacion de datos Poblacion")
         st.write("En este apartado encontrara graficos con relacion a los datos de la problación de colombia")
         st.markdown("---")
+        st.subheader("Tabla de tipos de muertes con más casos")
         st.table(tabla)
         st.plotly_chart(fig_histograma, use_container_width=True)
         st.plotly_chart(fig_barras_apiladas, use_container_width=True)
@@ -72,9 +73,6 @@ def main():
         st.subheader("Final de la Pagina Web")
         st.markdown("---")
         st.info("Gracias por ver esta pagina web, espero que la información mostrada haya sido util para usted.")
-
-        
-
 
 
 if __name__ == "__main__":
